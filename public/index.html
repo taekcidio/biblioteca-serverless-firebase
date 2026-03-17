@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biblioteca Serverless Firebase</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="fondo">
+    <header class="hero">
+      <div class="hero-contenido">
+        <p class="etiqueta">Catálogo digital</p>
+        <h1>Biblioteca Serverless Firebase</h1>
+        <p class="descripcion">
+          Consulta libros almacenados en Firestore mediante Firebase Functions
+          con una experiencia simple, elegante y profesional.
+        </p>
+      </div>
+    </header>
+
+    <main class="contenedor">
+      <section class="paneles">
+        <article class="tarjeta tarjeta-busqueda">
+          <h2>Buscar por ID</h2>
+          <p class="texto-panel">
+            Encuentra un libro usando su identificador principal.
+          </p>
+          <div class="fila">
+            <input type="text" id="inputId" placeholder="Ejemplo: 1" />
+            <button id="btnBuscarId">Buscar</button>
+          </div>
+        </article>
+
+        <article class="tarjeta tarjeta-busqueda">
+          <h2>Buscar por ISBN</h2>
+          <p class="texto-panel">
+            Busca un libro con su código único ISBN.
+          </p>
+          <div class="fila">
+            <input type="text" id="inputIsbn" placeholder="Ejemplo: 9780141439518" />
+            <button id="btnBuscarIsbn">Buscar</button>
+          </div>
+        </article>
+
+        <article class="tarjeta tarjeta-catalogo">
+          <h2>Catálogo completo</h2>
+          <p class="texto-panel">
+            Visualiza todos los libros registrados en la base de datos.
+          </p>
+          <button id="btnCargar" class="boton-secundario">Cargar libros</button>
+        </article>
+      </section>
+
+      <section class="tarjeta resultado-card">
+        <div class="resultado-header">
+          <div>
+            <p class="etiqueta-seccion">Resultados</p>
+            <h2>Consulta de libros</h2>
+          </div>
+        </div>
+        <div id="resultado" class="resultado-contenido">
+          <div class="mensaje inicio">
+            Presiona <strong>Cargar libros</strong> o realiza una búsqueda por ID o ISBN.
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

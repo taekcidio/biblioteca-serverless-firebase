@@ -1,0 +1,13 @@
+id,isbn,titulo,autor,genero,año,pais,stock
+1,9780141439518,Orgullo y prejuicio,Jane Austen,Novela,1813,Reino Unido,12
+2,9780743273565,El gran Gatsby,F. Scott Fitzgerald,Novela,1925,Estados Unidos,8
+3,9780451524935,1984,George Orwell,Ciencia Ficcion,1949,Reino Unido,15
+4,9780061120084,Matar a un ruiseñor,Harper Lee,Novela,1960,Estados Unidos,10
+5,9780307277671,La carretera,Cormac McCarthy,Drama,2006,Estados Unidos,6
+6,9788497592208,Don Quijote de la Mancha,Miguel de Cervantes,Clasico,1605,España,9
+7,9780307476463,El hobbit,J.R.R. Tolkien,Fantasia,1937,Reino Unido,14
+8,9780547928227,El señor de los anillos,J.R.R. Tolkien,Fantasia,1954,Reino Unido,7
+9,9780439139601,Harry Potter y el cáliz de fuego,J.K. Rowling,Fantasia,2000,Reino Unido,11
+10,9780307346605,Cometas en el cielo,Khaled Hosseini,Drama,2003,Afganistán,5
+11,9781400033416,Beloved,Toni Morrison,Drama,1987,Estados Unidos,4
+12,9780140449266,La odisea,Homero,Epica,-700,Grecia,13
